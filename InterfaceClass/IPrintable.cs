@@ -4,7 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-
+/*
+ * 1.	Create class Employee. Add fields like id, name, basic salary, HRA, TA, PF. Accept the value of id, name & basic salary from constructor. Calculate the employee gross salary  & display employee details using ToString() method
+a.	HRA- 40% of basic salary
+b.	TA – 20% of basic salary
+c.	PF -12 % of basic salary
+*/
 namespace InterfaceClass
 {
     public interface IPrintable
