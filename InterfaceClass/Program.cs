@@ -11,9 +11,9 @@ namespace InterfaceClass
         static void Main(string[] args)
         {
 
-            Student_Total_Percentage st = new Student_Total_Percentage(70,80,79);
-            st.Calculate();
-            Console.WriteLine(st);
+            //Student_Total_Percentage st = new Student_Total_Percentage(70,80,79);
+            //st.Calculate();
+            //Console.WriteLine(st);
 
             /*============================================================*/
             //StudentData stud = new StudentData();
@@ -21,7 +21,7 @@ namespace InterfaceClass
             //stud.name = "snehal";
             //stud.percentage = 87.80;
             //Console.WriteLine(stud.PrintDetails());
-            
+
 
             /*===========================================================================*/
             //Discount d = new Discount(101, "Enega", 200, 0.5);
@@ -39,7 +39,13 @@ namespace InterfaceClass
             //s.CalculateSalary();
             //Console.WriteLine(i.PrintDetails());
 
+            Circle c1 = new Circle(10);
+            c1.CalculateArea();
+            Console.WriteLine(c1);
 
+            Rectangle rect = new Rectangle(5, 6);
+            rect.CalculateArea();
+            Console.WriteLine(rect);
         }
     }
 }
